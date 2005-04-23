@@ -1,0 +1,10 @@
+This is a file that will document reasons for a version bump. this is as of
+SVN R 6
+
+* Added a version bump to recognize bugs found in the image loading code.  The
+code does not properly report errors if the image can't be loaded.  As a
+result the code will segfault if the images are not properly loaded.  working
+on the fix.
+
+* Added a version bump to signal the "BASE" release from the tux velocity
+code.
